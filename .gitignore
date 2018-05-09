@@ -1,0 +1,15 @@
+
+# Created by https://www.gitignore.io/api/macos
+
+### macOS ###
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+### CF Additions ###
+node_modules
+dbconfig.js
+config.js
+my-cert.pem
+my-key.pem
+.pem
