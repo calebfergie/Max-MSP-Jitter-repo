@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 1159.0, 1852.0, 928.0 ],
+		"rect" : [ 34.0, 79.0, 1187.0, 687.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1104,23 +1104,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 0.0 ],
-					"fontname" : "Copperplate Bold",
-					"fontsize" : 18.0,
-					"id" : "obj-58",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1071.0, 963.029639999999972, 190.0, 25.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1170.0, 21.071428298950195, 107.0, 25.0 ],
-					"text" : "STATUS",
-					"textjustification" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-48",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -1438,14 +1421,14 @@
 					"presentation_rect" : [ 408.566649999999981, 303.463501000000008, 136.0, 39.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 6.0,
 							"parameter_initial" : [ 0 ],
 							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "live.gain~[3]",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 6.0
+							"parameter_initial_enable" : 1
 						}
 
 					}
@@ -1533,14 +1516,14 @@
 				"box" : 				{
 					"autopopulate" : 1,
 					"id" : "obj-137",
-					"items" : [ "dont-mind.mp3", ",", "doses.mp3", ",", "escape-me.mp3", ",", "fruit-punch.mp3", ",", "gravy-train.mp3", ",", "keep-it-mello.mp3", ",", "LDA.mp3", ",", "lock-doh.aiff", ",", "lock-doh.mp3", ",", "macarther-park.mp3", ",", "march-madness.mp3", ",", "nerve-damage.mp3", ",", "put-me-thru.aiff", ",", "put-me-thru.mp3", ",", "seeing-whats-next.mp3", ",", "thriller.mp3" ],
+					"items" : [ "dont-mind.mp3", ",", "doses.mp3", ",", "escape-me.mp3", ",", "final-perf", ",", "fruit-punch.mp3", ",", "gravy-train.mp3", ",", "keep-it-mello.mp3", ",", "lock-doh.aiff", ",", "lock-doh.mp3", ",", "macarther-park.mp3", ",", "march-madness.mp3", ",", "nerve-damage.mp3", ",", "put-me-thru.aiff", ",", "put-me-thru.mp3", ",", "seeing-whats-next.mp3", ",", "thriller.mp3" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1009.600007458728669, 172.433289000000059, 100.0, 22.0 ],
-					"prefix" : "Macintosh HD:/Users/blockapps/Desktop/Caleb/music/",
+					"prefix" : "Macintosh HD:/Users/calebferguson/Google-drive/school-work/NYUITP/2018-1/LIPP/input-audio/",
 					"presentation" : 1,
 					"presentation_rect" : [ 188.0, 262.5, 356.566649999999981, 22.0 ]
 				}
@@ -1869,13 +1852,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-42",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 317.873070000000098, 83.0, 152.0, 49.0 ],
-					"text" : "/Users/blockapps/Desktop/Caleb/screencaps/jitworldtime0.mp4"
+					"patching_rect" : [ 317.873070000000098, 83.0, 152.0, 35.0 ],
+					"text" : "/Users/blockapps/Desktop/Caleb/screencaps/000"
 				}
 
 			}
@@ -1924,6 +1907,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-15",
@@ -2085,7 +2069,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 53.0, 326.833312999999976, 573.0, 22.0 ],
-									"text" : "/Users/blockapps/Desktop/Caleb/screencaps/jitworldtime0.mp4"
+									"text" : "/Users/blockapps/Desktop/Caleb/screencaps/000"
 								}
 
 							}
@@ -2166,8 +2150,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 31.0, 222.653594999999996, 251.0, 22.0 ],
-									"text" : "/Users/blockapps/Desktop/Caleb/screencaps/"
+									"patching_rect" : [ 31.0, 222.653594999999996, 522.0, 22.0 ],
+									"text" : "Macintosh HD:/Users/calebferguson/Google-drive/school-work/NYUITP/2018-1/LIPP/screencaps"
 								}
 
 							}
@@ -2305,8 +2289,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2315,8 +2299,8 @@
 , 							{
 								"name" : "newobjYellow-2",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3752,9 +3736,9 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-6::obj-37" : [ "aspect_menu", "aspect_menu", 0 ],
 			"obj-132" : [ "live.gain~[3]", "live.gain~", 0 ],
 			"obj-6::obj-20" : [ "letterbox_menu", "letterbox_menu", 0 ],
-			"obj-6::obj-37" : [ "aspect_menu", "aspect_menu", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -3838,8 +3822,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
@@ -3848,8 +3832,8 @@
 , 			{
 				"name" : "newobjYellow-2",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
